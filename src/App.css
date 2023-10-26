@@ -9,7 +9,6 @@
 *::before,
 *::after {
   box-sizing: border-box;
-  /* color: inherit; */
 }
 
 * {
@@ -25,7 +24,6 @@ img,
 picture,
 svg {
   display: block;
-  /* max-width: 100%; */
 }
 
 .App {
@@ -65,7 +63,6 @@ select {
   background-image: none;
   border: 1px solid #ccc;
   border-radius: 4px;
-  /* margin-bottom: 20px; */
 }
 
 .form-control {
@@ -89,7 +86,6 @@ select {
   font-size: 2.5rem;
   font-weight: bold;
   text-align: center;
-  /* padding-bottom: 1rem; */
   background-image: linear-gradient(45deg, var(--blue), var(--violet));
   background-clip: text;
   color: transparent;
@@ -170,7 +166,6 @@ select {
 }
 .toggle:hover {
   transform: scale(1.02);
-  /* background: hsl(233, 24%, 85%); */
 }
 .toggle:active {
   transform: scale(0.95);
@@ -192,7 +187,6 @@ select {
   -webkit-backdrop-filter: blur(4px);
   border-radius: 10px;
   border: 1px solid rgba(255, 255, 255, 0.18);
-  /* color: white; */
 }
 .dark-front input,
 .dark-front textarea,
